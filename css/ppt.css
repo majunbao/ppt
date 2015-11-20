@@ -1,0 +1,9 @@
+*{margin:0;padding:0;}
+html,body{height: 100%;width: 100%;}
+
+.ppt{height: 100%;width: 100%;}
+  .ppt .ppt-item{height: 100%;width: 100%;background-color: #2c3e50;float: left;}
+  .ppt .ppt-nav{position: fixed;right: 100px;bottom:35px;}
+  .ppt .ppt-nav .next,.ppt .ppt-nav .prev{display: inline-block;width: 84px;height: 84px;background: url(../images/ppt-nav.png) no-repeat 0 0;}
+  .ppt .ppt-nav .next{background-position: right center;margin-left: 16px;}
+  .ppt .ppt-nav .prev{}
